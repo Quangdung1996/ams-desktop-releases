@@ -1,18 +1,18 @@
 # AMS Desktop
 
-Bản cài đặt ứng dụng AMS cho máy tính. Repo này chỉ chứa các bản phát hành, không chứa mã nguồn.
+Installers for the AMS desktop app. This repository only holds the releases, no source code.
 
-Tải bản mới nhất: **[Releases → Latest](../../releases/latest)**
+Download the latest version: **[Releases → Latest](../../releases/latest)**
 
 ## macOS
 
-1. Tải `AMS_<phiên bản>_universal.dmg` (dùng cho cả chip Apple và Intel).
-2. Mở file .dmg, kéo **AMS** vào **Applications**, rồi eject ổ đĩa. Không chạy app trực tiếp từ .dmg: app sẽ không tự cập nhật được.
-3. Mở AMS từ Applications, chọn **Cho phép** thông báo khi được hỏi.
+1. Download `AMS_<version>_universal.dmg` (works on both Apple silicon and Intel Macs).
+2. Open the .dmg, drag **AMS** into **Applications**, then eject the disk. Do not run the app from the .dmg: it cannot update itself there.
+3. Open AMS from Applications and choose **Allow** when asked about notifications.
 
 ## Windows
 
-1. Tải `AMS_<phiên bản>_x64-setup.exe` rồi chạy.
-2. Nếu Windows hiện "Windows protected your PC": chọn **More info** → **Run anyway**.
+1. Download `AMS_<version>_x64-setup.exe` and run it.
+2. If Windows shows "Windows protected your PC": click **More info** → **Run anyway**.
 
-AMS tự kiểm tra bản mới và hỏi trước khi cập nhật.
+AMS checks for new versions on its own and asks before updating.
